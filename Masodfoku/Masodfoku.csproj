@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F05292F-1D6D-4B83-BC35-D919F83EAAB1}</ProjectGuid>
+    <ProjectGuid>{C16BFD73-8F2C-4B54-B7CF-1CD493522F2D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Szofttech_I_GYAK</RootNamespace>
-    <AssemblyName>Szofttech_I_GYAK</AssemblyName>
+    <RootNamespace>Masodfoku</RootNamespace>
+    <AssemblyName>Masodfoku</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
