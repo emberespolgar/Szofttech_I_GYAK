@@ -20,7 +20,20 @@ namespace Masodfoku
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a = double.Parse(textBox_a.Text);
+            double a;
+
+            try
+            {
+                a = double.Parse(textBox_a.Text);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Hibás a paraméter");
+                return;
+            }
+
+
             double b = double.Parse(textBox_b.Text);
             double c = double.Parse(textBox_c.Text);
 
@@ -33,6 +46,7 @@ namespace Masodfoku
             {
                 textBox1.Visible = false;
                 textBox2.Visible = false;
+                return;
             }
             else { 
             
